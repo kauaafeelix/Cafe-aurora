@@ -1,7 +1,7 @@
 :root{
     --primary-color: #8b4513;
     --brackgroung-color: #fffaf5;
-    --light-color: #fff8f0;
+    --light-color: #f9e8d6;
     --text-dark: #222;
     --text-muted: #555;
     --font-body: 'Poppins', sans-serif;
@@ -89,7 +89,7 @@ a{
 
 .hero-content{
     text-align: center;
-    color: var(--light-color);
+    color: var(--brackgroung-color);
     z-index: 2;
     padding: 2rem;
 }
@@ -170,7 +170,7 @@ a{
 }
 
 .contact{
-    background-color: rgba (139, 69, 19, 0.05);
+    background-color: var(--light-color);
     padding: 4rem 0;
 }
 
@@ -183,7 +183,8 @@ a{
 }
 
 .contact-text{
-    padding: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 .contact-text h2{
     font-size: 1.6rem;
@@ -193,5 +194,19 @@ a{
 .hours p{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.5rem;
+}
+
+.address{
+    padding: 1.5rem 0;
+    margin-bottom: 1rem;
+}
+
+.contact-image{
+    max-height: 300px;
+    display: flex;
+}
+
+.contact-image img{
+    object-fit: cover;
+    overflow: hidden;
 }
