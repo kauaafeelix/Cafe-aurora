@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
    <header class="header">
-        <div class="container header-inner">
-            <h1 class="logo"> Café Aurora</h1>
+        <div class="flex items-center justify-between px-6">
+                <h1 class="font-logo text-2xl text-yellow-900">Café Aurora</h1>
             <nav class="menu" aria-label="Menu Principal"> 
-                <div class="menu-mobile">
+                <div class="font-black">
                     <button id="menu-toggle" aria-label="abrir o menu mobile">☰</button>
                 </div>    
                 <div class="menu-desktop">
@@ -30,11 +31,11 @@
    <main>
         <section class="hero">
             <div class="hero-overlay">
-                <div class="hero-content">
-                    <h2>Sinta o sabor do verdadeiro café</h2>
-                    <p>Uma experiência úncia de sabores intensos e aromas involventes, preparados com grãos selecionados e muito carinho</p>
-                    <a href="#cardapio" class="btn">Conheça nosso cardápio</a>
-                </div>
+                <div class="hero-content text-center text-white z-2 p-8">
+                    <div class="text-4xl font-black text-size">Sinta o sabor do verdadeiro café</div>
+                        <p class="text-lg">Uma experiência úncia de sabores intensos e aromas envolventes, preparados com grãos selecionados e muito carinho</p>
+                        <a href="#cardapio" class="btn">Conheça nosso cardápio</a>
+                    </div>
             </div>
         </section>
 

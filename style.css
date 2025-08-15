@@ -15,7 +15,7 @@
         box-sizing: border-box;
 
     }
-    
+
 @font-face {
     font-family: 'Pacifico';
     src: url('fonts/Pacifico-Regular.ttf') format('truetype');
@@ -49,6 +49,14 @@ a{
 
 ul li {
     list-style: none;
+}
+
+.background{
+    background-color: var(--brackgroung-color);
+}
+
+.font-logo{
+    font-family: var(--font-logo);
 }
 
 .container{
